@@ -1,0 +1,6 @@
+ 
+  from node      2 to node      4 :   air massflow rate =  0.5020E+00 , oil massflow rate =  0.0000E+00 
+        Inlet node      2 :   Tt1 =  0.8190E+03  , Ts1 =  0.8190E+03  , Pt1 =  0.5443E+06 
+              Element            2 DU1     
+              dyn.visc =  0.3679E-04  , Re =  0.5791E+06, M =  0.1084E+00
+       Outlet node      4 :   Tt2 =  0.8190E+03  , Ts2 =  0.8190E+03  , Pt2 =  0.5400E+06 
