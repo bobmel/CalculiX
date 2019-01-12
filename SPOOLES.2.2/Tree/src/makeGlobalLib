@@ -6,7 +6,7 @@ OBJ = Tree
 
 SRC = basics.c \
       compress.c \
-      drawTree.c \
+      draw.c \
       init.c \
       instance.c \
       IO.c \

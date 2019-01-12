@@ -11,8 +11,8 @@
 #
 # for solaris
 #
-# CC = gcc
-  CC = /usr/lang-4.0/bin/cc
+  CC = gcc
+# CC = /usr/lang-4.0/bin/cc
 #
 # for sgi
 #
@@ -28,15 +28,15 @@
 # 
 # OPTLEVEL = 
 # OPTLEVEL = -g -v
-  OPTLEVEL = -O
+# OPTLEVEL = -O
 # OPTLEVEL = -xO5 -v
-# OPTLEVEL = -O3
+  OPTLEVEL = -O3
 # OPTLEVEL = -O4
 # CFLAGS = -Wall -g
 # CFLAGS = -Wall -pg
 # CFLAGS = $(OPTLEVEL) -D_POSIX_C_SOURCE=199506L
-  CFLAGS = $(OPTLEVEL)
-# CFLAGS = -Wall $(OPTLEVEL)
+# CFLAGS = $(OPTLEVEL)
+  CFLAGS = -Wall $(OPTLEVEL)
 #
 #----------------------------------------
 #

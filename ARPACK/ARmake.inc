@@ -25,14 +25,14 @@
 # | other than your home directory.      |
 # %--------------------------------------%
 #
-home = $(HOME)/ARPACK
+home = $(HOME)/Development/calculix/ARPACK
 #
 #  %--------------------------------------%
 #  | The platform identifier to suffix to |
 #  | the end of library names             |
 #  %--------------------------------------%
 #
-PLAT = SUN4
+PLAT = MAC
 #
 #  %------------------------------------------------------%
 #  | The directories to find the various pieces of ARPACK |
@@ -101,8 +101,8 @@ ALIBS =  $(ARPACKLIB) $(LAPACKLIB) $(BLASLIB)
 # | for your system.                        |
 # %-----------------------------------------%
 #
-FC      = f77
-FFLAGS	= -O -cg89
+FC      = gfortran-8
+FFLAGS	= -c -O -v### -dumpmachine
 
 LDFLAGS = 
 CD      = cd
@@ -112,7 +112,7 @@ ECHO    = echo
 LN      = ln
 LNFLAGS = -s
 
-MAKE    = /bin/make
+MAKE    = make
 
 RM      = rm
 RMFLAGS = -f

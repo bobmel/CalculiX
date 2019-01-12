@@ -60,3 +60,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# CalculiX output files
+*.12d
+*.cvg
+*.dat
+*.eig
+*.frd
+*.sta
+*.stm
